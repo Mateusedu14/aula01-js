@@ -1,24 +1,26 @@
+/* 
+"Faça um algoritmo onde o usuário informe o nome
+e 4 notas de dois alunos e mostre as
+médias desses 2 alunos."
+*/
 //Exibir no terminal
-console.log("Hello World");
+console.log("Algoritmo 01")
 //Exibir no navegador
-document.write("Olá Navegador");
-//um aler
-alert("Alerta de Confirmação");
+document.escreva("Exercício Algoritmo 01")
+//Um alerta
+alert("Vamos praticar!!!")
 
-// Capturar o nome do Aluno
-var nome = window.prompt("Informe o Nome:");
-// Guardar a primeira nota
-var nota1 = window.prompt("Digite a nota1:");
-//converte a nota1 de texto para decimal
-nota1 = parseFloat(nota1)
-    // Guardar a segunda nota
-    var nota2 = window.prompt("Digite a nota2:");
-    // Converte a nota2 de texto para decimal
-    nota2 = parseFloat(nota2)
-//calculo a média das duas notas
-
-var media = (nota1 + nota2)/2;
-//Gero a mensagem de exibição do nome e da média do aluno
-var mensagem = nome + ", você obteve a média : " + media;
-
-window.alert(mensagem);
+//Capturar o nome do Aluno 01
+var nome1 = window.prompt("Informe o Nome do 1º Aluno: ");
+//Capturar o nome do Aluno 02
+var nome2 = window.prompt("Informe o Nome do 2º Aluno: ");
+//Guardar a primeira nota
+    var nota1 = window.prompt("Digite a Nota1: ");
+    var nota2 = window.prompt("Digite a Nota2: "); 
+    var nota3 = window.prompt("Digite a Nota3: "); 
+    var nota4 = window.prompt("Digite a Nota4: ");
+    nota1 = parseFloat(Nota1);
+    nota2 = parseFloat(Nota2);
+    nota3 = parseFloat(Nota3);
+    nota4 = parseFloat(Nota4);
+    
